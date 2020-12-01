@@ -12,7 +12,7 @@
                     if($proyectos){
                         foreach($proyectos as $proyecto){ ?>
                             <li>
-                                <a href="index.php?id_proyecto=<?php echo $proyecto['id_proyecto']."&nombre=".$proyecto['nombre'];?>" id="<?php echo $proyecto['id_proyecto'];?>">
+                                <a href="index?id_proyecto=<?php echo $proyecto['id_proyecto']."&nombre=".$proyecto['nombre'];?>" id="<?php echo $proyecto['id_proyecto'];?>">
                                 <?php echo $proyecto['nombre'];?>
                                 </a>
                             </li>
@@ -22,5 +22,5 @@
                 ?>
             </ul>
         </div>
-        <a class="logout-mobile" href="login.php?cerrar-sesion=true">Cerrar Sesión</a>
+        <a class="logout-mobile" href="login?cerrar-sesion=true">Cerrar Sesión</a>
     </aside>

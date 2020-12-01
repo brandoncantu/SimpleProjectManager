@@ -59,7 +59,7 @@ function validarRegistro(event){
                             timer: 1500
                         })    
                         setTimeout(function(){
-                            window.location.href = 'index.php';
+                            window.location.href = 'index';
                         }, 2000);
                     }
                 }else{
