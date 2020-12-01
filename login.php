@@ -25,7 +25,7 @@
             </div>
 
             <div class="campo change">
-                <a href="crear-cuenta">Crea una cuenta nueva</a>
+                <a href="crear-cuenta.php">Crea una cuenta nueva</a>
             </div>
         </form>
     </div>

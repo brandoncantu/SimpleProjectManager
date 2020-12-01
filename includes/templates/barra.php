@@ -6,5 +6,5 @@
     </div>
     <img src="img/logo.PNG" alt="_SPManager">
     <h1>Administrador de Proyectos</h1>
-    <a class="logout-desk "href="login?cerrar-sesion=true">Cerrar Sesión</a>
+    <a class="logout-desk "href="login.php?cerrar-sesion=true">Cerrar Sesión</a>
 </div>

@@ -70,7 +70,7 @@ function guardarProyectoDB(nombreProyecto){
                     //inyectar html
                     var nuevoProyecto = document.createElement('li');
                     nuevoProyecto.innerHTML = `
-                        <a href="index?id_proyecto=${id}" id="${id}">
+                        <a href="index.php?id_proyecto=${id}" id="${id}">
                             ${proyecto}
                         </a>
                     `;
@@ -85,7 +85,7 @@ function guardarProyectoDB(nombreProyecto){
                       .then(res =>{
                         if(res.value){
                             var nombre = proyecto.replace(" ", "%20");
-                            window.location.href = "index?id_proyecto=" + id+"&nombre="+ nombre;
+                            window.location.href = "index.php?id_proyecto=" + id+"&nombre="+ nombre;
                         }
                     })
 
