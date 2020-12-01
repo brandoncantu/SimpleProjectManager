@@ -3,7 +3,7 @@
     include_once('includes/templates/header.php');
 ?>
     <div class="contenedor-formulario">
-        <img src="img/logo.PNG" alt="_SPManager">
+        <img src="img/logo.png" alt="_SPManager">
         <form id="formulario" class=" caja-login" method="post">
             <div class="campo">
                 <label for="usuario">Usuario: </label>
