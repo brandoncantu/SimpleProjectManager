@@ -3,6 +3,10 @@ eventListeners();
 var listaProyectos = document.querySelector('ul#proyectos');
 var flagNuevoProyecto = false;
 
+window.onload = function() {
+    alert('Login credentials:\r\nUser: demo\r\nPassword: demo')
+};
+
 function eventListeners(){
     document.addEventListener('DOMContentLoaded', function(){
         actualizarProgreso();
