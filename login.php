@@ -30,6 +30,12 @@
         </form>
     </div>
 
+    <script>
+        window.onload = function() {
+            alert('Login credentials:\r\nUser: demo\r\nPassword: demo')
+        };
+    </script>   
+
 <?php
     include 'includes/templates/footer.php';
 ?>
